@@ -1,0 +1,6 @@
+id=euicc_ss_mod
+name=eSIM Management (Universal SS / Mod)
+version=1.0
+versionCode=1
+author=local
+description=Universal SS variant with the PATCHED (mod) OpenEUICC LPA (shouldIgnoreSlot=false, reports ALL removable eUICCs). For SINGLE-SIM devices; does not touch persist.radio.multisim.config. Required on ROMs whose modem natively reports the removable eUICC (e.g. Xiaomi HyperOS), where the stock LPA ignores the slot and the card is shown as a physical SIM. Declares android.hardware.telephony.euicc, installs OpenEUICC as privileged LPA with privapp whitelist, sets eSIM UI props. Requires Android 12+, Magisk/KernelSU with system_ext mount support, CorePatch or disabled signature verification.

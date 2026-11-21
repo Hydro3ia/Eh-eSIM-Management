@@ -1,0 +1,6 @@
+id=euicc_ds_mod
+name=eSIM Management (Universal DS / Mod)
+version=1.0
+versionCode=1
+author=local
+description=Universal DS variant with the PATCHED (mod) OpenEUICC LPA (shouldIgnoreSlot=false, reports ALL removable eUICCs). For DUAL-SIM (DSDS) devices; forces persist.radio.multisim.config=dsds. Covers both cases the stock LPA fails: dual removable eSIM adapters (both cards register as embedded), and ROMs whose modem natively reports the eUICC (e.g. Xiaomi HyperOS). Verified on Sony XZ Premium (2x eSIM) and Xiaomi Redmi K40 Pro (1x eSIM + 1x pSIM). Declares android.hardware.telephony.euicc, installs OpenEUICC as privileged LPA with privapp whitelist, sets eSIM UI props. Requires Android 12+, Magisk/KernelSU with system_ext mount support, CorePatch or disabled signature verification.

@@ -1,0 +1,6 @@
+id=euicc_ds_stock
+name=eSIM Management (Universal DS / Stock)
+version=1.0
+versionCode=1
+author=local
+description=Universal DS variant with the STOCK OpenEUICC LPA. For DUAL-SIM (DSDS) devices; forces persist.radio.multisim.config=dsds. Stock LPA reports ONE removable eUICC only: OK for one eSIM adapter + one pSIM on ROMs whose modem does not report eUICC natively. For two eSIM adapters, or ROMs that natively report the eUICC (EID in IccCardStatus), use the Mod variant. Declares android.hardware.telephony.euicc, installs OpenEUICC as privileged LPA with privapp whitelist, sets eSIM UI props. Requires Android 12+, Magisk/KernelSU with system_ext mount support, CorePatch or disabled signature verification.

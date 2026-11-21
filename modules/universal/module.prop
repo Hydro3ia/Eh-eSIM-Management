@@ -1,0 +1,6 @@
+id=euicc_universal
+name=eSIM Management (Universal)
+version=1.0
+versionCode=1
+author=local
+description=Declares the android.hardware.telephony.euicc feature and installs stock OpenEUICC as a privileged LPA in /system_ext/priv-app with its privapp permission whitelist. For devices WITHOUT a built-in eUICC that use ONE removable eSIM adapter (5ber / eSIM.me etc.). Requires Android 12+, Magisk/KernelSU with system_ext mount support, and CorePatch (or disabled signature verification). Single-SIM safe: does not force dsds.

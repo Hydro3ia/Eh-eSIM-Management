@@ -1,0 +1,6 @@
+id=euicc_ss_stock
+name=eSIM Management (Universal SS / Stock)
+version=1.0
+versionCode=1
+author=local
+description=Universal SS variant with the STOCK OpenEUICC LPA. For SINGLE-SIM devices; does not touch persist.radio.multisim.config. Use only on devices whose modem does NOT natively report the removable eUICC (no EID in IccCardStatus); otherwise the stock LPA ignores the eSIM slot and Settings treats it as a physical SIM (use the Mod variant instead). Declares android.hardware.telephony.euicc, installs OpenEUICC as privileged LPA with privapp whitelist, sets eSIM UI props. Requires Android 12+, Magisk/KernelSU with system_ext mount support, CorePatch or disabled signature verification.

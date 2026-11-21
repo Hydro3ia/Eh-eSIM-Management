@@ -1,0 +1,6 @@
+id=euicc_enable
+name=eSIM Management (Custom for Xperia G8142 / maple)
+version=1.0
+versionCode=1
+author=local
+description=DEVICE-SPECIFIC build for Sony Xperia XZ Premium (G8142/maple) on PixelOS yoshino (Android 16). Declares android.hardware.telephony.euicc, installs a PATCHED OpenEUICC priv LPA that reports ALL removable eUICCs to the system (dual removable eSIM adapters), includes the privapp whitelist, and forces dsds + eSIM UI props. Requires KernelSU + Hybrid Mount (magic mode), CorePatch/LSPosed active, and physical eSIM adapters in both slots.
